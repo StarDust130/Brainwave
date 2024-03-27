@@ -10,7 +10,7 @@ const Benefits = () => {
     <Section id="features">
       <div className="container relative z-2">
         <Heading
-          className="md:max-w-md lg:max-w-2xl"
+          className="md:max-w-md lg:max-w-2xl text-center"
           title="Chat Smarter, Not Harder with Brainwave"
         />
 
@@ -23,9 +23,9 @@ const Benefits = () => {
               }}
               key={item.id}
             >
-              <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none rounded-bl-3xl rounded-tr-3xl   ">
+              <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none rounded-bl-3xl rounded-tr-3xl border-2   ">
                 <h5 className="h5 mb-5">{item.title}</h5>
-                <p className="body-2 mb-6 text-n-3">{item.text}</p>
+                <p className="body-2 mb-6 text-n-3 ">{item.text}</p>
                 <div className="flex items-center mt-auto ">
                   <img
                     src={item.iconUrl}
@@ -46,14 +46,14 @@ const Benefits = () => {
                 className="absolute inset-0.5 bg-n-8"
                 style={{ clipPath: "url(#benefits)" }}
               >
-                <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-40">
+                <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-60">
                   {item.imageUrl && (
                     <img
                       src={item.imageUrl}
                       width={380}
                       height={362}
                       alt={item.title}
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-cover pointer-events-none "
                     />
                   )}
                 </div>
