@@ -3,28 +3,28 @@ import { notification1 } from "../assets";
 import { notificationImages } from "../constants";
 
 const Notification = ({ className, title }) => {
-  // State to store elapsed time in minutes and seconds
+  //! State to store elapsed time in minutes and seconds
   const [elapsedTime, setElapsedTime] = useState({ minutes: 0, seconds: 0 });
 
-  // Effect to update elapsed time every second
+  
   useEffect(() => {
-    // Interval function to update elapsed time
+    //! Interval function to update elapsed time
     const interval = setInterval(() => {
-      // Update elapsed time by incrementing seconds
+     
       setElapsedTime((prevElapsedTime) => {
         const newSeconds = prevElapsedTime.seconds + 1;
-        // Check if seconds cross 60
+        //! Check if seconds cross 60
         if (newSeconds === 60) {
-          // If seconds reach 60, reset seconds to 0 and increment minutes
+          //! If seconds reach 60, reset seconds to 0 and increment minutes
           return { minutes: prevElapsedTime.minutes + 1, seconds: 0 };
         } else {
-          // If seconds don't reach 60, update only seconds
+          //! If seconds don't reach 60, update only seconds
           return { ...prevElapsedTime, seconds: newSeconds };
         }
       });
     }, 1000); // Update every second
 
-    // Cleanup function to clear the interval when the component unmounts
+    //! Cleanup function to clear the interval when the component unmounts
     return () => clearInterval(interval);
   }, []); // Run effect only once when the component mounts
 
