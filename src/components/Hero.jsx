@@ -57,13 +57,12 @@ const Hero = () => {
                   height={490}
                   className="w-full scale-[1.7] translate-y-[8%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[23%] "
                 />
-                <ScrollParallax isAbsolutelyPositioned>
-                  <Generating
-                    className={
-                      "absolute left-4 right-4 bottom-5 md:left-1/2 md:right-auto md:bottom-8 md:w-[31rem] md:-translate-x-1/2   "
-                    }
-                  />
-                </ScrollParallax>
+
+                <Generating
+                  className={
+                    "absolute left-4 right-4 bottom-5 md:left-1/2 md:right-auto md:bottom-8 md:w-[31rem] md:-translate-x-1/2   "
+                  }
+                />
 
                 <ScrollParallax isAbsolutelyPositioned>
                   <ul className="hidden absolute -left-[5.5rem] bottom-[7.5rem] px-1 py-1 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl xl:flex ">
@@ -107,8 +106,6 @@ const Hero = () => {
         </div>
 
         <CompanyLogo className="hidden relative z-10 mt-20 lg:block" />
-
-
       </div>
       <BottomLine />
     </Section>
