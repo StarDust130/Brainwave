@@ -10,6 +10,9 @@ export default {
   ],
   theme: {
     extend: {
+      animation: {
+        "spin-slow": "spin 30s linear infinite", // Adjust duration as needed
+      },
       colors: {
         color: {
           1: "#AC6AFF",

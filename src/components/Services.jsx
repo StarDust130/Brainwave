@@ -1,5 +1,4 @@
 import { service1, service2, check } from "../assets";
-import ButtonGradient from "../assets/svg/ButtonGradient";
 import { brainwaveServices, brainwaveServicesIcons } from "../constants";
 import Generating from "./Generating";
 import Heading from "./Heading";
@@ -114,6 +113,7 @@ const Services = () => {
                   ))}
                 </ul>
               </div>
+
               <div className="rounded-3xl bg-n-8 border-2   border-purple-500 cursor-none ">
                 <div className="relative" style={{ paddingTop: "56.25%" }}>
                   <iframe
