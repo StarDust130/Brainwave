@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <h1 style="text-align: center;">🌟 BrainWave AI Website 🚀</h1>
 <div style="text-align: center;">
     <a href="https://brainwave-stardust.vercel.app/" target="_blank">
@@ -66,9 +66,3 @@
  <h3 style="text-align: center; font-style: italic;">"The only way to do great work is to love what you do." - Steve Jobs 🌟</h3>
 
  <hr/>
-  
-=======
-# BrainWave  [Under Development] 🚧🚧🚧
-
-## [See Live](https://brainwave-stardust.vercel.app/)
->>>>>>> 196f936e2af5cd92187e6af44cbb616ae988318a
