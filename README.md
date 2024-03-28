@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1 style="text-align: center;">🌟 BrainWave AI Website 🚀</h1>
 <div style="text-align: center;">
     <a href="https://brainwave-stardust.vercel.app/" target="_blank">
@@ -66,3 +67,8 @@
 
  <hr/>
   
+=======
+# BrainWave  [Under Development] 🚧🚧🚧
+
+## [See Live](https://brainwave-stardust.vercel.app/)
+>>>>>>> 196f936e2af5cd92187e6af44cbb616ae988318a
