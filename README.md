@@ -61,6 +61,10 @@
 
 <hr/>
 
+###### This project is inspired by the [BrainWave AI Landing Page Kit](https://ui8.net/ui8/products/brainwave-ai-landing-page-kit?rel=jsm) available on UI8. Check it out for more design inspiration! ✨
+
+<hr/>
+
  <h3 style="text-align: center; font-style: italic;">"The only way to do great work is to love what you do." - Steve Jobs 🌟</h3>
 
  <hr/>
