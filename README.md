@@ -1,16 +1,14 @@
 
-<h1 style="text-align: center;">🌟 BrainWave AI Website 🚀</h1>
+# <h1 style="text-align: center;">🌟 BrainWave AI Website 🚀</h1>
 <div style="text-align: center;">
     <a href="https://brainwave-stardust.vercel.app/" target="_blank">
         <img src="public/frontPage.png" alt="Brain Wave AI Website" style="width: 100%;">
     </a>
 </div>
 
-<div style="text-align: center;">
-    <a href="https://brainwave-stardust.vercel.app/" target="_blank" style="text-decoration: none; color: blue; font-size: 24px;">
-        <span style="font-size: 32px;">🌟</span> SEE LIVE <span style="font-size: 32px;">🚀</span>
-    </a>
-</div>
+## [SEE LIVE🌟](https://brainwave-stardust.vercel.app/)
+
+
 
 <p style="text-align: center; font-size: 20px;">Welcome to Brain Wave, an innovative AI website built using React and Tailwind CSS! Let's dive into the future together! 🌈</p>
 
@@ -63,6 +61,11 @@
 
 <hr/>
 
+###### This project is inspired by the [BrainWave AI Landing Page Kit](https://ui8.net/ui8/products/brainwave-ai-landing-page-kit?rel=jsm) available on UI8. Check it out for more design inspiration! ✨
+
+<hr/>
+
  <h3 style="text-align: center; font-style: italic;">"The only way to do great work is to love what you do." - Steve Jobs 🌟</h3>
 
  <hr/>
+
