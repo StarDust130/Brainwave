@@ -1,16 +1,14 @@
 
-<h1 style="text-align: center;">🌟 BrainWave AI Website 🚀</h1>
+# <h1 style="text-align: center;">🌟 BrainWave AI Website 🚀</h1>
 <div style="text-align: center;">
     <a href="https://brainwave-stardust.vercel.app/" target="_blank">
         <img src="public/frontPage.png" alt="Brain Wave AI Website" style="width: 100%;">
     </a>
 </div>
 
-<div style="text-align: center;">
-    <a href="https://brainwave-stardust.vercel.app/" target="_blank" style="text-decoration: none; color: blue; font-size: 24px;">
-        <span style="font-size: 32px;">🌟</span> SEE LIVE <span style="font-size: 32px;">🚀</span>
-    </a>
-</div>
+## [SEE LIVE🌟](https://brainwave-stardust.vercel.app/)
+
+
 
 <p style="text-align: center; font-size: 20px;">Welcome to Brain Wave, an innovative AI website built using React and Tailwind CSS! Let's dive into the future together! 🌈</p>
 
