@@ -10,7 +10,6 @@
 
 
 
-
 <p style="text-align: center; font-size: 20px;">Welcome to Brain Wave, an innovative AI website built using React and Tailwind CSS! Let's dive into the future together! 🌈</p>
 
 <h2 style="text-align: ;">✨ Features</h2>
